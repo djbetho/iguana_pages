@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    border:0;
+    padding: 0;
+}
+body * {
+   
+    font-family: 'Raleway', sans-serif;
+
+    }
+    body h1{
+        background-color: #000000;
+        text-align: center;
+        color: #ffffff;
+        font-weight: lighter;
+        margin: -1px;
+   
+    }
+    header{
+    background-image:url(../img/bg-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:  514px 0 515px 0px;
+
+     
+}
+ 
+#desc-section {
+    background: #000000;
+    padding: 50px;
+    color: white;
+   } 
+    
+   #desc-section .wrapper {
+    width: 1266px;
+    margin: auto;
+   }
+   .wrapper img {
+    width: 30%;
+ 
+   }
+   .wrapper .texto {
+    width: 50%;
+    margin-left: 7%;
+    font-weight:lighter;
+   }
+   .wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icons-section {
+    
+    background-color: #1e1a13;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.icons-section h2{
+    
+    margin: -2px;
+    font-weight: lighter;
+    font-size:xx-large;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+.icons-section  div{
+    padding: 40px;
+}
+ .icons-section  div,i{
+    display: inline-block;
+     
+ }
+ .icons-section  h3{
+    font-size: 20px;
+    font-weight: lighter;
+     
+}
+
+.iguanas{
+    background-color: #000000;    
+    padding-left: 20%;
+
+}
+.iguanas div, img{
+    
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+.iguanas div,img{
+
+      
+    width: 300px;
+	height: 200px;
+	object-fit: cover;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+ 
+.iguanas div{
+    padding-left:30px;
+    vertical-align: middle;
+    
+}
+
+
+
+footer {
+    
+    text-align: center;
+    font-weight: lighter;
+    font-size:larger;
+    background-color:#1e1a13;
+    
+    padding:30px
+}
+footer a:hover {
+    color: #ffffff;
+    margin: 0px  15px 20px 10px;
+    
+}
+footer a {
+    color: #ffffff;
+    margin: 0px  15px 20px 10px;
+    
+}
